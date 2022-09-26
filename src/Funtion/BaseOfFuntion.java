@@ -9,5 +9,6 @@ public class BaseOfFuntion {
         int num = 5;
         int l = Fun(num);
         System.err.println(l);
+        System.err.println(l);
     }
 }
