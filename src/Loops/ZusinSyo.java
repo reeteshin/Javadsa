@@ -11,7 +11,7 @@ public class ZusinSyo {
          
        if(n==0 || n==1)
        {
-        System.out.println("Not Prime NO");
+        System.out.println("Not Prime NO lp");
        }
        else{
         for(int i = 2 ;i<=n;i++)
