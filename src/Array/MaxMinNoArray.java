@@ -1,6 +1,21 @@
 package Array;
-
 public class MaxMinNoArray {
+    // static pair getMinMax(long a[], long n)  
+    // {
+      
+    //   long max=a[0],min=a[0];
+    //   for(int i=0;i<a.length-1;i++)
+    //   {
+    //       if(max<a[i+1])
+    //          max=a[i+1];
+    //       if(min>a[i+1])
+    //          min=a[i+1];
+      
+    //   }
+    //   pair minmax=new pair(min,max);
+    //   return minmax;
+      
+    // }
     
     public static void main(String[] args)
     {
