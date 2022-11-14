@@ -1,7 +1,7 @@
 package OppsConcepts.Polymorphism;
 
 class Parent {               //   class 1
-	// Method of parent class
+	// Method 1 of parent class 
 	void Print()
 	{
 		// Print statement
@@ -10,12 +10,12 @@ class Parent {               //   class 1
 }
 class subclass1 extends Parent { //class 2
 
-	// Method
+	// Method 2
 	void Print() { System.out.println("subclass1"); }
 }
 class subclass2 extends Parent { //class 3
 
-	// Method
+	// Method 3
 	void Print()
 	{
 
