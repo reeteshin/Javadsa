@@ -37,8 +37,7 @@ public class Count123 {
             count2--;
         }
         for(int i = 0;i<len;i++)
-        {
-            
+        { 
             System.out.print(genarr[i] + " ");
         }
     }

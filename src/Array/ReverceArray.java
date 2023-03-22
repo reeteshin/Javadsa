@@ -6,7 +6,7 @@ public class ReverceArray {
 
     public static void PrintArray(int arr[], int n) {
         // Print Reverce Of the Array
-        for (var k = n - 1; k >= 0; k--) {
+        for (int k = n - 1; k >= 0; k--) {
             System.out.println(arr[k]);
         }
 

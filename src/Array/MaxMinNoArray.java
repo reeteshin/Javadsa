@@ -37,7 +37,7 @@ class GetMinMaxValue{
     {
         long Max = A[0];
         long Min = A[0];
-        for(var i = 0 ;i<A.length ;i++)
+        for(int i = 0 ;i<A.length ;i++)
         {
             if(Max < A[i])
             {
