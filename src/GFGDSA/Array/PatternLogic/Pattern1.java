@@ -83,10 +83,10 @@ public class Pattern1 {
             // System.out.println(val);
 
             for (int k = 0; k < n - i; k++) {
-                System.out.print(" ");
+                System.out.print(" ");//only i have given left side space in this
             }
             for (int j = 0; j < val; j++) {
-                System.out.print("*");
+                System.out.print("*"); //odd number pattern
             }
             System.out.println();
         }
@@ -98,10 +98,13 @@ public class Pattern1 {
             int val = 2 * i + 1; // genrate the odd numbers (2*n+1)
             // for even no we use (2*n)
             for (int space = 0; space < n - i; space++) {
-                System.out.print(" ");
+                System.out.print(" ");//left Side space
             }
             for (int j = 0; j < val; j++) {
                 System.out.print("*");
+            }
+            for (int space = 0; space < n - i; space++) {
+                System.out.print("-");//right Side Space 
             }
 
             System.out.println();
@@ -150,8 +153,8 @@ public class Pattern1 {
     }
 
     public static void main(String[] arg) {
-        int n = 7;
-        PatternTen(n);
+        int n = 5;
+        PatternEight(n);
     }
 
 }
