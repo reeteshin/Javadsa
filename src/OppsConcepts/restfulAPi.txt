@@ -1,0 +1,15 @@
+A RESTful API is an API (Application Programming Interface) that follows the principles and constraints of the REST (Representational State Transfer) architectural style. RESTful APIs provide a standardized way for different systems to communicate and exchange data over the internet.
+
+Here are the key characteristics of a RESTful API:
+
+Resource-Based: RESTful APIs model the system as a collection of resources. Each resource is identified by a unique URL (Uniform Resource Locator), also known as a URI (Uniform Resource Identifier). Resources can be anything that can be named, such as objects, data, or services.
+
+Stateless Communication: RESTful APIs are stateless, which means that each request from the client to the server contains all the necessary information to process that request. The server does not maintain any client-specific information between requests. This simplifies the design and scalability of the API.
+
+Uniform Interface: RESTful APIs have a uniform and consistent interface for accessing and manipulating resources. They use standard HTTP methods, such as GET, POST, PUT, and DELETE, to perform operations on resources. Each resource is accessed through its unique URL, and the API returns responses using standard data formats, such as JSON (JavaScript Object Notation) or XML (eXtensible Markup Language).
+
+Stateless Responses: When a client requests a resource from a RESTful API, the server responds with a representation of the resource's current state. This representation can be in various formats (JSON, XML, etc.) and contains the data and metadata associated with the resource.
+
+Hypermedia as the Engine of Application State (HATEOAS): HATEOAS is a principle of REST that enables the API to provide links to related resources within the response. By including hyperlinks, the client can navigate and discover the available actions and resources dynamically.
+
+By adhering to these principles, a RESTful API promotes scalability, simplicity, and interoperability. It allows clients to interact with resources in a standardized way, making it easier to develop, integrate, and evolve systems that communicate over the web.

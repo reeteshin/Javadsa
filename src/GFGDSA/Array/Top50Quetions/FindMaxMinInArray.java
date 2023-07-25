@@ -22,10 +22,13 @@ class FindMinMax{
     }
 }
 
+
+
 public class FindMaxMinInArray {
    
     public static void main(String[] args)
     {
+        
         System.out.println("Max Min In Array");
         FindMinMax ob = new FindMinMax();
         int[] arr = {1,2,5,6,8,9,7,18,10};

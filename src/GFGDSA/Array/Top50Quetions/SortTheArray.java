@@ -10,7 +10,7 @@ class SelectionSort {
       {
         int minIndex = i;
         for(int j=i+1;j<arr.length;j++){
-            //we will find here minimum and maximum
+            // we will find here minimum and maximum
             if(arr[j]<arr[minIndex])
             {
                 minIndex = j;
