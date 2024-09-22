@@ -83,10 +83,10 @@ public class Pattern1 {
             // System.out.println(val);
 
             for (int k = 0; k < n - i; k++) {
-                System.out.print(" ");//only i have given left side space in this
+                System.out.print(" ");// only i have given left side space in this
             }
             for (int j = 0; j < val; j++) {
-                System.out.print("*"); //odd number pattern
+                System.out.print("*"); // odd number pattern
             }
             System.out.println();
         }
@@ -98,13 +98,13 @@ public class Pattern1 {
             int val = 2 * i + 1; // genrate the odd numbers (2*n+1)
             // for even no we use (2*n)
             for (int space = 0; space < n - i; space++) {
-                System.out.print(" ");//left Side space
+                System.out.print(" ");// left Side space
             }
             for (int j = 0; j < val; j++) {
                 System.out.print("*");
             }
             for (int space = 0; space < n - i; space++) {
-                System.out.print("-");//right Side Space 
+                System.out.print("-");// right Side Space
             }
 
             System.out.println();
@@ -144,17 +144,78 @@ public class Pattern1 {
 
     public static void PatternTen(int n) {
         // altrantive zero one
-        for (int i = 0; i < n; i++) {
-            
-             
+        int start = 1;
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                if ((i + j) % 2 == 0) {
+                    System.out.print("0");
+                } else {
+                    System.out.print("1");
+                }
+            }
+            System.out.println();
+        }
+    }
 
-            System.out.println(i);
+    public static void PatternEleven(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j < i; j++) {
+                System.out.print(j);
+            }
+            for (int sp = n - i; sp > 0; sp--) {
+                System.out.print(" ");
+            }
+            for (int sp = n - i; sp > 0; sp--) {
+                System.out.print(" ");
+            }
+            for (int k = i - 1; k >= 1; k--) {
+                System.out.print(k);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void PatternTwelve(int n) {
+        int count = 1;
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(count);
+                count++;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void PatternThirteen(int n) {
+        char ch;
+        for (ch = 'A'; ch <= 'E'; ch++) {
+            for (char j = 'A'; j <= ch; j++) {
+
+                System.out.print(" " + j);
+            }
+            System.out.println();
         }
     }
 
     public static void main(String[] arg) {
+
+        int q = 1;
+        int p = 1;
+        p++;
+        ++q;
+        System.out.println(++q + "" +p++);
         int n = 5;
-        PatternEight(n);
+        One(n);
+    }
+    public static void One(int n){
+        int count = 0;
+        for(int i=0;i<n;i++){
+           for(int j=0;j<=i;j++){
+                ++count;
+                System.out.print(count);
+           }
+           System.out.println();
+        }
     }
 
 }
